@@ -1,0 +1,44 @@
+﻿<Window x:Class="yfbo0225.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:yfbo0225"
+        mc:Ignorable="d"
+        Title="YFBO0225" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Height="180" Width="420">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="59*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Label Content="端口号选择:" Width="120" Height="40" FontSize="16" Style="{DynamicResource LabelInfo}"></Label>
+            </Grid>
+            <Grid Grid.Column="2">
+                <ComboBox Name="Serial_PortNumber" FontSize="16" Height="40" SelectedIndex="0"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.ColumnSpan="2" Margin="0,82,0,0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Button Name="In_Config_Page" Content="进入配置面板" Height="40" Width="120" Style="{StaticResource ButtonPrimary}" FontSize="16" Click="In_Config_Page_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

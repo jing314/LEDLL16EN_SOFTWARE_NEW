@@ -1,0 +1,612 @@
+﻿<Window x:Class="yfbo0225.Pages.Config_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:yfbo0225.Pages"
+        mc:Ignorable="d"
+        Title="YFBO0225" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Height="860" Width="1615" Closed="Window_Closed">
+    <Grid x:Name="Set_Page" Margin="8 0 8 8" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="500"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border  CornerRadius="5" Background="#FFA5CDEF">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                        <RowDefinition Height="66"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                        <ColumnDefinition Width="66"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="4" Grid.Row="0">
+                        <Button Name="Button_ID2_CH1" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="0">
+                        <Button Name="Button_ID2_CH0" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="0">
+                        <Button Name="Button_ID3_CH5" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="0">
+                        <Button Name="Button_ID3_CH4" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="0">
+                        <Button Name="Button_ID3_CH3" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="0">
+                        <Button Name="Button_ID3_CH2" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="0">
+                        <Button Name="Button_ID3_CH1" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="0">
+                        <Button Name="Button_ID3_CH0" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="0">
+                        <Button Name="Button_ID6_CH0" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="0">
+                        <Button Name="Button_ID6_CH1" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="0">
+                        <Button Name="Button_ID6_CH2" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="0">
+                        <Button Name="Button_ID6_CH3" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="0">
+                        <Button Name="Button_ID6_CH4" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="0">
+                        <Button Name="Button_ID6_CH5" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="0">
+                        <Button Name="Button_ID9_CH0" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="0">
+                        <Button Name="Button_ID9_CH1" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+
+                    <Grid Grid.Column="3" Grid.Row="1">
+                        <Button Name="Button_ID2_CH4" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="1">
+                        <Button Name="Button_ID2_CH3" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="1">
+                        <Button Name="Button_ID2_CH2" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="1">
+                        <Button Name="Button_ID3_CH11" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="1">
+                        <Button Name="Button_ID3_CH10" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="1">
+                        <Button Name="Button_ID3_CH9" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="1">
+                        <Button Name="Button_ID3_CH8" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="1">
+                        <Button Name="Button_ID3_CH7" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="1">
+                        <Button Name="Button_ID3_CH6" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="1">
+                        <Button Name="Button_ID6_CH6" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="1">
+                        <Button Name="Button_ID6_CH7" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="1">
+                        <Button Name="Button_ID6_CH8" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="1">
+                        <Button Name="Button_ID6_CH9" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="1">
+                        <Button Name="Button_ID6_CH10" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="1">
+                        <Button Name="Button_ID6_CH11" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="1">
+                        <Button Name="Button_ID9_CH2" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="1">
+                        <Button Name="Button_ID9_CH3" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="1">
+                        <Button Name="Button_ID9_CH4" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+
+                    <Grid Grid.Column="2" Grid.Row="2">
+                        <Button Name="Button_ID2_CH9" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="3" Grid.Row="2">
+                        <Button Name="Button_ID2_CH8" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="2">
+                        <Button Name="Button_ID2_CH7" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="2">
+                        <Button Name="Button_ID2_CH6" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="2">
+                        <Button Name="Button_ID2_CH5" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="2">
+                        <Button Name="Button_ID4_CH4" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="2">
+                        <Button Name="Button_ID4_CH3" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="2">
+                        <Button Name="Button_ID4_CH2" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="2">
+                        <Button Name="Button_ID4_CH1" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="2">
+                        <Button Name="Button_ID4_CH0" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="2">
+                        <Button Name="Button_ID7_CH0" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="2">
+                        <Button Name="Button_ID7_CH1" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="2">
+                        <Button Name="Button_ID7_CH2" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="2">
+                        <Button Name="Button_ID7_CH3" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="2">
+                        <Button Name="Button_ID7_CH4" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="2">
+                        <Button Name="Button_ID9_CH5" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="2">
+                        <Button Name="Button_ID9_CH6" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="2">
+                        <Button Name="Button_ID9_CH7" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="2">
+                        <Button Name="Button_ID9_CH8" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="21" Grid.Row="2">
+                        <Button Name="Button_ID9_CH9" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1" Grid.Row="3">
+                        <Button Name="Button_ID1_CH0" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="2" Grid.Row="3">
+                        <Button Name="Button_ID2_CH14" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="14"/>
+                    </Grid>
+                    <Grid Grid.Column="3" Grid.Row="3">
+                        <Button Name="Button_ID2_CH13" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="3">
+                        <Button Name="Button_ID2_CH12" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="3">
+                        <Button Name="Button_ID2_CH11" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="3">
+                        <Button Name="Button_ID2_CH10" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="3">
+                        <Button Name="Button_ID4_CH9" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="3">
+                        <Button Name="Button_ID4_CH8" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="3">
+                        <Button Name="Button_ID4_CH7" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="3">
+                        <Button Name="Button_ID4_CH6" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="3">
+                        <Button Name="Button_ID4_CH5" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="3">
+                        <Button Name="Button_ID7_CH5" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="3">
+                        <Button Name="Button_ID7_CH6" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="3">
+                        <Button Name="Button_ID7_CH7" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="3">
+                        <Button Name="Button_ID7_CH8" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="3">
+                        <Button Name="Button_ID7_CH9" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="3">
+                        <Button Name="Button_ID9_CH10" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="3">
+                        <Button Name="Button_ID9_CH11" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="3">
+                        <Button Name="Button_ID9_CH12" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="3">
+                        <Button Name="Button_ID9_CH13" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="21" Grid.Row="3">
+                        <Button Name="Button_ID9_CH14" Style="{StaticResource ButtonWarning}" Width="55" Height="55" FontSize="24" Content="14"/>
+                    </Grid>
+                    <Grid Grid.Column="22" Grid.Row="3">
+                        <Button Name="Button_ID10_CH0" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH7" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH6" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="2" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH5" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="3" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH4" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH3" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="4">
+                        <Button x:Name="Button_ID1_CH2" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="4">
+                        <Button x:Name="Button_ID5_CH1" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="4">
+                        <Button x:Name="Button_ID5_CH0" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="0"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="4">
+                        <Button Name="Button_ID4_CH13" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="4">
+                        <Button Name="Button_ID4_CH12" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="4">
+                        <Button Name="Button_ID4_CH11" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="4">
+                        <Button Name="Button_ID4_CH10" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="4">
+                        <Button Name="Button_ID7_CH10" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="4">
+                        <Button Name="Button_ID7_CH11" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="4">
+                        <Button Name="Button_ID7_CH12" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="4">
+                        <Button Name="Button_ID7_CH13" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="4">
+                        <Button Name="Button_ID8_CH0" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="0">
+                        </Button>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="4">
+                        <Button Name="Button_ID8_CH1" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="4">
+                        <Button Name="Button_ID10_CH1" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="1"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="4">
+                        <Button Name="Button_ID10_CH2" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="4">
+                        <Button Name="Button_ID10_CH3" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="21" Grid.Row="4">
+                        <Button Name="Button_ID10_CH4" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="22" Grid.Row="4">
+                        <Button Name="Button_ID10_CH5" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="23" Grid.Row="4">
+                        <Button Name="Button_ID10_CH6" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+
+
+                    <Grid Grid.Column="1" Grid.Row="5">
+                        <Button x:Name="Button_ID1_CH11" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="2" Grid.Row="5">
+                        <Button x:Name="Button_ID1_CH10" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="3" Grid.Row="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="9*"/>
+                            <RowDefinition Height="13*"/>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="Button_ID1_CH9" Style="{StaticResource ButtonPrimary}" Width="54" Height="54" FontSize="24" Content="9" Grid.RowSpan="2"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="5">
+                        <Button x:Name="Button_ID1_CH8" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="5">
+                        <Button x:Name="Button_ID1_CH1" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH7" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH6" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH5" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH4" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH3" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="5">
+                        <Button x:Name="Button_ID5_CH2" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="5">
+                        <Button Name="Button_ID8_CH2" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="2"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="5">
+                        <Button Name="Button_ID8_CH3" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="3"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="5">
+                        <Button Name="Button_ID8_CH4" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="4"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="5">
+                        <Button Name="Button_ID8_CH5" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="5"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="5">
+                        <Button Name="Button_ID8_CH6" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="6"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="5">
+                        <Button Name="Button_ID8_CH7" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="5">
+                        <Button Name="Button_ID10_CH7" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="7"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="5">
+                        <Button Name="Button_ID10_CH8" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="5">
+                        <Button Name="Button_ID10_CH9" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="21" Grid.Row="5">
+                        <Button Name="Button_ID10_CH10" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="22" Grid.Row="5">
+                        <Button Name="Button_ID10_CH11" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+
+                    <Grid Grid.Column="2" Grid.Row="6">
+                        <Button x:Name="Button_ID1_CH15" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="15"/>
+                    </Grid>
+                    <Grid Grid.Column="3" Grid.Row="6">
+                        <Button x:Name="Button_ID1_CH14" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="14"/>
+                    </Grid>
+                    <Grid Grid.Column="4" Grid.Row="6">
+                        <Button x:Name="Button_ID1_CH13" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.Row="6">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="6*"/>
+                            <RowDefinition Height="5*"/>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="Button_ID1_CH12" Style="{StaticResource ButtonPrimary}" Width="54" Height="54" FontSize="24" Content="12" Grid.RowSpan="2"/>
+                    </Grid>
+                    <Grid Grid.Column="6" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH13" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="7" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH12" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="8" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH11" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="9" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH10" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="10" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH9" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="11" Grid.Row="6">
+                        <Button x:Name="Button_ID5_CH8" Style="{StaticResource ButtonSuccess}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="12" Grid.Row="6">
+                        <Button Name="Button_ID8_CH8" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="8"/>
+                    </Grid>
+                    <Grid Grid.Column="13" Grid.Row="6">
+                        <Button Name="Button_ID8_CH9" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="9"/>
+                    </Grid>
+                    <Grid Grid.Column="14" Grid.Row="6">
+                        <Button x:Name="Button_ID8_CH10" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="10"/>
+                    </Grid>
+                    <Grid Grid.Column="15" Grid.Row="6">
+                        <Button x:Name="Button_ID8_CH11" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="11"/>
+                    </Grid>
+                    <Grid Grid.Column="16" Grid.Row="6">
+                        <Button x:Name="Button_ID8_CH12" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="17" Grid.Row="6">
+                        <Button Name="Button_ID8_CH13" Style="{StaticResource ButtonInfo}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="18" Grid.Row="6">
+                        <Button Name="Button_ID10_CH12" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="12"/>
+                    </Grid>
+                    <Grid Grid.Column="19" Grid.Row="6">
+                        <Button Name="Button_ID10_CH13" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="13"/>
+                    </Grid>
+                    <Grid Grid.Column="20" Grid.Row="6">
+                        <Button Name="Button_ID10_CH14" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="14"/>
+                    </Grid>
+                    <Grid Grid.Column="21" Grid.Row="6">
+                        <Button Name="Button_ID10_CH15" Style="{StaticResource ButtonPrimary}" Width="55" Height="55" FontSize="24" Content="15"/>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Border  CornerRadius="5" Background="#FFA5CDEF">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="400"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Label Content="运行模式选择：" HorizontalAlignment="Left" Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <ComboBox Name="Select_Mode" FontSize="24" Height="45" SelectionChanged="Select_Mode_SelectionChanged">
+                            <ComboBoxItem Content="全部点亮"/>
+                            <ComboBoxItem Content="呼吸"/>
+                            <ComboBoxItem Content="流水"/>
+                            <ComboBoxItem Content="流水DIY"/>
+                            <ComboBoxItem Content="反向组合流水"/>
+                            <ComboBoxItem Content="带拖尾流水"/>
+                            <ComboBoxItem Content="两边向中间堆积流水"/>
+                            <ComboBoxItem Content="随机点亮"/>
+                            <ComboBoxItem Content="独立调节"/>
+                            <ComboBoxItem Content="关闭灯光"/>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Grid.Column="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Label Name="Max_Light_Lable" Content="最高亮度：0" HorizontalAlignment="Left"  Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Label Name="Mix_Light_Lable" Content="最低亮度：0" HorizontalAlignment="Left" Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Label Name="Bre_Speed_Lable" Content="呼吸速度：0" HorizontalAlignment="Left" Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                        </Grid>
+                        <Grid Grid.Row="3">
+                            <Label Name="Flow_Speed_Lable" Content="流水速度：0" HorizontalAlignment="Left" Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                        </Grid>
+                        <Grid Grid.Row="4">
+                            <Label Name="Bre_Count_Lable" Content="呼吸灯数：0" HorizontalAlignment="Left" Height="45" FontSize="24" Style="{DynamicResource LabelPrimary}"></Label>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="4">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Slider Name="Max_Light_Slider" VerticalAlignment="Center" Width="400" Value="100" Maximum="255" ValueChanged="Max_Light_Slider_ValueChanged"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Slider Name="Mix_Light_Slider" VerticalAlignment="Center" Width="400" Value="20" Maximum="255" ValueChanged="Mix_Light_Slider_ValueChanged"/>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Slider Name="Bre_Speed_Slider" VerticalAlignment="Center" Width="400" Value="20" Maximum="255" ValueChanged="Bre_Speed_Slider_ValueChanged"/>
+                        </Grid>
+                        <Grid Grid.Row="3">
+                            <Slider Name="Flow_Speed_Slider" VerticalAlignment="Center" Width="400" Value="20" Maximum="255" ValueChanged="Flow_Speed_Slider_ValueChanged"/>
+                        </Grid>
+                        <Grid Grid.Row="4">
+                            <Slider Name="Bre_Count_Slider" VerticalAlignment="Center" Width="400" Value="20" Maximum="142" ValueChanged="Bre_Count_Slider_ValueChanged"/>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="6">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="60"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Button Name="Max_Light_Button" Style="{StaticResource ButtonPrimary}" FontSize="24" Height="45" Content="应用" Click="Max_Light_Button_Click"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Button Name="Mix_Light_Button" Style="{StaticResource ButtonPrimary}" FontSize="24" Height="45" Content="应用" Click="Mix_Light_Button_Click"/>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Button Name="Bre_Speed_Button" Style="{StaticResource ButtonPrimary}" FontSize="24" Height="45" Content="应用" Click="Bre_Speed_Button_Click"/>
+                        </Grid>
+                        <Grid Grid.Row="3">
+                            <Button Name="Flow_Speed_Button" Style="{StaticResource ButtonPrimary}" FontSize="24" Height="45" Content="应用" Click="Flow_Speed_Button_Click"/>
+                        </Grid>
+                        <Grid Grid.Row="4">
+                            <Button Name="Bre_Count_Button" Style="{StaticResource ButtonPrimary}" FontSize="24" Height="45" Content="应用" Click="Bre_Count_Button_Click"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+
+    </Grid>
+</Window>
